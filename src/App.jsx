@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import ConstructionMessage from './ConstructionMessage';
 import './App.css';
 
