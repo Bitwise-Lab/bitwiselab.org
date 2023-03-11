@@ -3,7 +3,7 @@ import Countdown from 'react-countdown';
 import './countdown.css';
 
 const CountdownTimer = () => {
-  const futureDate = new Date();
+  const futureDate = new Date('2023-03-10');
   futureDate.setFullYear(futureDate.getFullYear() + 4);
 
   const renderer = ({ days, hours, minutes, seconds }) => (
