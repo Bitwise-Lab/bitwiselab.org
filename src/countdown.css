@@ -1,0 +1,26 @@
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 36px;
+}
+
+.countdown-timer__item {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.countdown-timer__value {
+  display: block;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.countdown-timer__label {
+  display: block;
+  color: #f2f2f2;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
